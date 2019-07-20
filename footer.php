@@ -1,112 +1,257 @@
-    <!-- Essential javascripts for application to work-->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-    <!-- The javascript plugin to display page loading on top-->
-    <script src="js/plugins/pace.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/codemirror.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/mode/xml/xml.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/froala_editor.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/align.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/code_beautifier.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/code_view.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/colors.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/draggable.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/emoticons.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/font_size.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/font_family.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/image.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/file.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/image_manager.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/line_breaker.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/link.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/lists.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/paragraph_format.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/paragraph_style.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/video.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/table.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/url.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/entities.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/char_counter.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/inline_style.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/quick_insert.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/save.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/fullscreen.min.js"></script>
-  <script type="text/javascript" src="froala_editor_3.0.3/js/plugins/quote.min.js"></script>
+<footer class="footer">
+    <div class="container-fluid">
+        <nav class="float-left">
+        <ul>
+            <li>
+            <a href="https://www.creative-tim.com">
+                Creative Tim
+            </a>
+            </li>
+            <li>
+            <a href="https://creative-tim.com/presentation">
+                About Us
+            </a>
+            </li>
+            <li>
+            <a href="http://blog.creative-tim.com">
+                Blog
+            </a>
+            </li>
+            <li>
+            <a href="https://www.creative-tim.com/license">
+                Licenses
+            </a>
+            </li>
+        </ul>
+        </nav>
+        <div class="copyright float-right">
+        &copy;
+        <script>
+            document.write(new Date().getFullYear())
+        </script>, made with <i class="material-icons">favorite</i> by
+        <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
+        </div>
+    </div>
+</footer>
 
-    <!-- Page specific javascripts-->
-    <script type="text/javascript" src="js/plugins/chart.js"></script>
-    <script type="text/javascript">
-      var data = {
-      	labels: ["January", "February", "March", "April", "May"],
-      	datasets: [
-      		{
-      			label: "My First dataset",
-      			fillColor: "rgba(220,220,220,0.2)",
-      			strokeColor: "rgba(220,220,220,1)",
-      			pointColor: "rgba(220,220,220,1)",
-      			pointStrokeColor: "#fff",
-      			pointHighlightFill: "#fff",
-      			pointHighlightStroke: "rgba(220,220,220,1)",
-      			data: [65, 59, 80, 81, 56]
-      		},
-      		{
-      			label: "My Second dataset",
-      			fillColor: "rgba(151,187,205,0.2)",
-      			strokeColor: "rgba(151,187,205,1)",
-      			pointColor: "rgba(151,187,205,1)",
-      			pointStrokeColor: "#fff",
-      			pointHighlightFill: "#fff",
-      			pointHighlightStroke: "rgba(151,187,205,1)",
-      			data: [28, 48, 40, 19, 86]
-      		}
-      	]
-      };
-      var pdata = [
-      	{
-      		value: 300,
-      		color: "#46BFBD",
-      		highlight: "#5AD3D1",
-      		label: "Complete"
-      	},
-      	{
-      		value: 50,
-      		color:"#F7464A",
-      		highlight: "#FF5A5E",
-      		label: "In-Progress"
-      	}
-      ]
-      
-      var ctxl = $("#lineChartDemo").get(0).getContext("2d");
-      var lineChart = new Chart(ctxl).Line(data);
-      
-      var ctxp = $("#pieChartDemo").get(0).getContext("2d");
-      var pieChart = new Chart(ctxp).Pie(pdata);
-    </script>
+<!--   Core JS Files   -->
+<script src="./assets/js/core/jquery.min.js"></script>
+<script src="./assets/js/core/popper.min.js"></script>
+<script src="./assets/js/core/bootstrap-material-design.min.js"></script>
+<script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+<!-- Plugin for the momentJs  -->
+<script src="./assets/js/plugins/moment.min.js"></script>
+<!--  Plugin for Sweet Alert -->
+<script src="./assets/js/plugins/sweetalert2.js"></script>
+<!-- Forms Validations Plugin -->
+<script src="./assets/js/plugins/jquery.validate.min.js"></script>
+<!-- Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->
+<script src="./assets/js/plugins/jquery.bootstrap-wizard.js"></script>
+<!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+<script src="./assets/js/plugins/bootstrap-selectpicker.js"></script>
+<!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
+<script src="./assets/js/plugins/bootstrap-datetimepicker.min.js"></script>
+<!--  DataTables.net Plugin, full documentation here: https://datatables.net/  -->
+<script src="./assets/js/plugins/jquery.dataTables.min.js"></script>
+<!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+<script src="./assets/js/plugins/bootstrap-tagsinput.js"></script>
+<!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+<script src="./assets/js/plugins/jasny-bootstrap.min.js"></script>
+<!--  Full Calendar Plugin, full documentation here: https://github.com/fullcalendar/fullcalendar    -->
+<script src="./assets/js/plugins/fullcalendar.min.js"></script>
+<!-- Vector Map plugin, full documentation here: http://jvectormap.com/documentation/ -->
+<script src="./assets/js/plugins/jquery-jvectormap.js"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="./assets/js/plugins/nouislider.min.js"></script>
+<!-- Include a polyfill for ES6 Promises (optional) for IE11, UC Browser and Android browser support SweetAlert -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+<!-- Library for adding dinamically elements -->
+<script src="./assets/js/plugins/arrive.min.js"></script>
+<!--  Google Maps Plugin    -->
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+<!-- Chartist JS -->
+<script src="./assets/js/plugins/chartist.min.js"></script>
+<!--  Notifications Plugin    -->
+<script src="./assets/js/plugins/bootstrap-notify.js"></script>
+<!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+<script src="./assets/js/material-dashboard.js?v=2.1.1" type="text/javascript"></script>
+<!-- Material Dashboard DEMO methods, don't include it in your project! -->
+<script src="./assets/demo/demo.js"></script>
+<script>
+$(document).ready(function() {
+    $().ready(function() {
+    $sidebar = $('.sidebar');
 
-    <script>
-    function posts(str) {
-      $.ajax({
-      type: "POST",
-      url: str,
-      success: function(data){
-        $("#content").html(data);
-        const editorInstance = new FroalaEditor('#edit', {
-        theme: 'gray',
-        enter: FroalaEditor.ENTER_P,
-        events: {
-          initialized: function () {
-            const editor = this
-            document.getElementById('preview').innerHTML = editor.html.get()
-          },
-          contentChanged: function () {
-            const editor = this
-            document.getElementById('preview').innerHTML = editor.html.get()
-          }
+    $sidebar_img_container = $sidebar.find('.sidebar-background');
+
+    $full_page = $('.full-page');
+
+    $sidebar_responsive = $('body > .navbar-collapse');
+
+    window_width = $(window).width();
+
+    fixed_plugin_open = $('.sidebar .sidebar-wrapper .nav li.active a p').html();
+
+    if (window_width > 767 && fixed_plugin_open == 'Dashboard') {
+        if ($('.fixed-plugin .dropdown').hasClass('show-dropdown')) {
+        $('.fixed-plugin .dropdown').addClass('open');
         }
-        });
-      }
-      });
+
     }
-  </script>     
+
+    $('.fixed-plugin a').click(function(event) {
+        // Alex if we click on switch, stop propagation of the event, so the dropdown will not be hide, otherwise we set the  section active
+        if ($(this).hasClass('switch-trigger')) {
+        if (event.stopPropagation) {
+            event.stopPropagation();
+        } else if (window.event) {
+            window.event.cancelBubble = true;
+        }
+        }
+    });
+
+    $('.fixed-plugin .active-color span').click(function() {
+        $full_page_background = $('.full-page-background');
+
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
+
+        var new_color = $(this).data('color');
+
+        if ($sidebar.length != 0) {
+        $sidebar.attr('data-color', new_color);
+        }
+
+        if ($full_page.length != 0) {
+        $full_page.attr('filter-color', new_color);
+        }
+
+        if ($sidebar_responsive.length != 0) {
+        $sidebar_responsive.attr('data-color', new_color);
+        }
+    });
+
+    $('.fixed-plugin .background-color .badge').click(function() {
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
+
+        var new_color = $(this).data('background-color');
+
+        if ($sidebar.length != 0) {
+        $sidebar.attr('data-background-color', new_color);
+        }
+    });
+
+    $('.fixed-plugin .img-holder').click(function() {
+        $full_page_background = $('.full-page-background');
+
+        $(this).parent('li').siblings().removeClass('active');
+        $(this).parent('li').addClass('active');
+
+
+        var new_image = $(this).find("img").attr('src');
+
+        if ($sidebar_img_container.length != 0 && $('.switch-sidebar-image input:checked').length != 0) {
+        $sidebar_img_container.fadeOut('fast', function() {
+            $sidebar_img_container.css('background-image', 'url("' + new_image + '")');
+            $sidebar_img_container.fadeIn('fast');
+        });
+        }
+
+        if ($full_page_background.length != 0 && $('.switch-sidebar-image input:checked').length != 0) {
+        var new_image_full_page = $('.fixed-plugin li.active .img-holder').find('img').data('src');
+
+        $full_page_background.fadeOut('fast', function() {
+            $full_page_background.css('background-image', 'url("' + new_image_full_page + '")');
+            $full_page_background.fadeIn('fast');
+        });
+        }
+
+        if ($('.switch-sidebar-image input:checked').length == 0) {
+        var new_image = $('.fixed-plugin li.active .img-holder').find("img").attr('src');
+        var new_image_full_page = $('.fixed-plugin li.active .img-holder').find('img').data('src');
+
+        $sidebar_img_container.css('background-image', 'url("' + new_image + '")');
+        $full_page_background.css('background-image', 'url("' + new_image_full_page + '")');
+        }
+
+        if ($sidebar_responsive.length != 0) {
+        $sidebar_responsive.css('background-image', 'url("' + new_image + '")');
+        }
+    });
+
+    $('.switch-sidebar-image input').change(function() {
+        $full_page_background = $('.full-page-background');
+
+        $input = $(this);
+
+        if ($input.is(':checked')) {
+        if ($sidebar_img_container.length != 0) {
+            $sidebar_img_container.fadeIn('fast');
+            $sidebar.attr('data-image', '#');
+        }
+
+        if ($full_page_background.length != 0) {
+            $full_page_background.fadeIn('fast');
+            $full_page.attr('data-image', '#');
+        }
+
+        background_image = true;
+        } else {
+        if ($sidebar_img_container.length != 0) {
+            $sidebar.removeAttr('data-image');
+            $sidebar_img_container.fadeOut('fast');
+        }
+
+        if ($full_page_background.length != 0) {
+            $full_page.removeAttr('data-image', '#');
+            $full_page_background.fadeOut('fast');
+        }
+
+        background_image = false;
+        }
+    });
+
+    $('.switch-sidebar-mini input').change(function() {
+        $body = $('body');
+
+        $input = $(this);
+
+        if (md.misc.sidebar_mini_active == true) {
+        $('body').removeClass('sidebar-mini');
+        md.misc.sidebar_mini_active = false;
+
+        $('.sidebar .sidebar-wrapper, .main-panel').perfectScrollbar();
+
+        } else {
+
+        $('.sidebar .sidebar-wrapper, .main-panel').perfectScrollbar('destroy');
+
+        setTimeout(function() {
+            $('body').addClass('sidebar-mini');
+
+            md.misc.sidebar_mini_active = true;
+        }, 300);
+        }
+
+        // we simulate the window Resize so the charts will get updated in realtime.
+        var simulateWindowResize = setInterval(function() {
+        window.dispatchEvent(new Event('resize'));
+        }, 180);
+
+        // we stop the simulation of Window Resize after the animations are completed
+        setTimeout(function() {
+        clearInterval(simulateWindowResize);
+        }, 1000);
+
+    });
+    });
+});
+</script>
+<script>
+$(document).ready(function() {
+    // Javascript method's body can be found in assets/js/demos.js
+    md.initDashboardPageCharts();
+
+});
+</script>
